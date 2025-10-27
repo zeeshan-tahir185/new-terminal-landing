@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
                 <div className='flex justify-between items-center gap-[20px] border-t border-[#EAECF0] pt-5 md:pt-[30px] flex-wrap flex-col sm:flex-row text-center sm:text-left'>
                     <div className='flex items-start gap-2'>
-                        <img src="/images/img1.png" width={35} height={22} alt='img icon' className='' />
+                        <img src="/images/footer_logo.svg" width={35} height={22} alt='img icon' className='mt-1' />
                         <h3 className='text-lg md:text-2xl font-medium'>Breakouts & Setups</h3>
                     </div>
                     <p className='text-base font-medium text-[#667085]'>Terms of Service</p>
