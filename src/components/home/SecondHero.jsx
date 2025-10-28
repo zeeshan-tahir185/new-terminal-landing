@@ -30,7 +30,7 @@ const SecondHero = () => {
           <p className="text-base md:text-xl font-normal inter text-[#000000] capitalize">
             Just tell us Your email... 👇
           </p>
-          <div className="flex flex-col justify-center sm:flex-row gap-3 md:gap-7 items-start w-full my-3">
+          <div className="flex flex-col justify-center md:flex-row gap-3 md:gap-7 items-start w-full my-3">
             <p className="inter font-medium text-base text-[#000000] sm:mt-3">
               Email
             </p>
@@ -40,9 +40,9 @@ const SecondHero = () => {
                 name=""
                 id=""
                 placeholder="email@example.com"
-                className="w-full sm:w-[365px] h-[48px] rounded-[10px] pl-4 outline-none border border-[#E3E3E8] input_box_shadow"
+                className="w-full md:w-[365px] h-[48px] rounded-[10px] pl-4 outline-none border border-[#E3E3E8] input_box_shadow"
               />
-              <button className="flex justify-center items-center gap-[14px] w-full sm:w-[364px] h-[48px] rounded-[10px] text-white bg-[#008000] button_shadow">
+              <button className="flex justify-center items-center gap-[14px] w-full md:w-[364px] h-[48px] rounded-[10px] text-white bg-[#008000] button_shadow">
                 <BsUnlockFill />
                 Get 3 Free Breakouts
               </button>
