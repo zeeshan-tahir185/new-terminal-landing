@@ -1,25 +1,12 @@
 import React from "react";
 import { BsUnlockFill } from "react-icons/bs";
 import { IoMdCheckmark } from "react-icons/io";
+import Header from "./Header";
 
 const HeroSection = () => {
   return (
     <div className="md:min-h-[900px]relative overflow-hidden main_section_bg z-50 text-center w-full flex flex-col justify-center items-center  gap-[20px] md:gap-[50px] py-[30px]">
-      <div className="flex flex-col items-center md:items-end  px-[20px] md:px-[100px]">
-          <img
-            src="/images/logo.svg"
-            alt="img icon"
-            className="mt-1"
-          />
-          
-        <p className="text-[10px] flex items-center gap-2 ">
-          <span className="gradient_color">Powered By</span>
-          <img src="/images/img2.png" alt="" className="w-[9px]" />
-          <span className="gradient_color market_heading font-normal">
-            Market Terminal
-          </span>
-        </p>
-      </div>
+      <Header />
       <h1 className="inter font-bold text-2xl md:text-[50px]  px-[20px] md:px-[100px] leading-[75px]">
         3 Free
         <span className="text-[#008000] ml-3">
@@ -33,7 +20,7 @@ const HeroSection = () => {
               <h2 className="text-xl md:text-[30px] font-semibold text-[#000000]">
                 Ticker:
               </h2>
-              <img src="/images/blur_img.svg" alt="" />
+              <img src="/images/blur_img.svg" alt=""  />
             </div>
             <img
               src="/images/hero_img.svg"
@@ -58,7 +45,7 @@ const HeroSection = () => {
                   name=""
                   id=""
                   placeholder="email@example.com"
-                  className="w-full sm:w-[365px] h-[48px] rounded-[10px] pl-4 border-none outline-none"
+                className="w-full sm:w-[365px] h-[48px] rounded-[10px] pl-4 outline-none border border-[#E3E3E8] input_box_shadow"
                 />
                 <button className="flex justify-center items-center gap-[14px] w-full sm:w-[364px] h-[48px] rounded-[10px] text-white bg-[#008000] button_shadow">
                   <BsUnlockFill />
